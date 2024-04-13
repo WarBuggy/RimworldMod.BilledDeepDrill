@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <RecipeDef>
+        <defName>Operate_Billed_Deep_Drill</defName>
+        <label>operate billed deep drill </label>
+        <description>Operate billed deep drill.</description>
+        <jobString>Operating billed deep drill.</jobString>
+        <workSpeedStat>DeepDrillingSpeed</workSpeedStat>
+        <effectWorking>Drill</effectWorking>
+        <soundWorking>Interact_Drill</soundWorking>
+        <workAmount>14000</workAmount>
+        <skillRequirements>
+            <Mining>0</Mining>
+        </skillRequirements>
+        <workSkill>Mining</workSkill>
+    </RecipeDef>
+</Defs>

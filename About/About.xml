@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<packageId>Buggy.RimWorld.BilledDeepDrill</packageId>
+	<name>Billed Deep Drill</name>
+	<author>Buggy</author>
+	<supportedVersions>
+		<li>1.3</li>
+		<li>1.4</li>
+		<li>1.5</li>
+	</supportedVersions>
+	<description>A deep drill that uses the bill system. It allows players to specify who can operate it. I can think of 2 reasons why one would want such a machine:
+[list]
+[*]Drills for highly value ores can be used only by highly skilled pawns. Beginners can operate drills for stone chunks.
+[*]Not everyone should venture far from base to operate drills.
+[/list]
+The haul options for bill do not mean anything here. So "Do X times", "Do until you have X" will not work. Neither does "Haul to stockpile". Billed drill can give mining exp and trigger infestations, as expected. This shares the same infestation mechanism with the vanilla drill.
+
+There should not be any conflict with other mod. Please let me know if any! I only use about 20 mods myself. 
+
+Can be safely added mid-game.
+
+If you like this mod, maybe check out my other ones:
+More Biotech Letters https://steamcommunity.com/sharedfiles/filedetails/?id=2889303626
+Permanent Injury Letter https://steamcommunity.com/sharedfiles/filedetails/?id=2592535960
+
+It would be great to receive feedback, suggestions or pointers on how to improve. Hope these mods help!
+
+Cheers!
+
+Github: https://github.com/WarBuggy/RimworldMod.LetterPermanentInjury.git
+
+Version history
+[b]v0.2[/b]
+[list]
+[*]Add compatibility for 1.5. Happy horror hunting!
+[*]Add github link.
+[/list]
+[b]v0.1.3[/b]
+[list]
+[*]Add compatibility for 1.4.
+[/list]
+[b]v0.1.2[/b]
+[list]
+[*]Remove tag from mod name to make it clearer.
+[/list]
+[b]v0.1.1[/b]
+[list]
+[*]Fix a bug where the bill does not show up.
+[/list]
+[b]v0.1[/b]
+[list]
+[*]First release.
+[/list]
+</description>
+</ModMetaData>

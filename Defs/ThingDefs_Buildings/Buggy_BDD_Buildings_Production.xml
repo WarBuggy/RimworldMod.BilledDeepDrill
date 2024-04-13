@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="BuildingBase">
+        <defName>BilledDeepDrill</defName>
+        <label>billed deep drill</label>
+        <description>A bill-able version of the deep drill.</description>
+        <thingClass>Building_WorkTable</thingClass>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Building/Production/DeepDrill</texPath>
+            <drawSize>(2,2)</drawSize>
+            <drawRotated>false</drawRotated>
+            <shadowData>
+                <volume>(0.52, 0.53, 0.09)</volume>
+                <offset>(0,0,-0.43)</offset>
+            </shadowData>
+            <color>(0.5, 0.5, 0.5, 1)</color>
+        </graphicData>
+        <size>(1,1)</size>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <pathCost>50</pathCost>
+        <fillPercent>0.5</fillPercent>
+        <hasInteractionCell>true</hasInteractionCell>
+        <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+        <designationCategory>Production</designationCategory>
+        <designationHotKey>Misc12</designationHotKey>
+        <specialDisplayRadius>2.6</specialDisplayRadius>        <!-- 21 closest cells, must be in sync with CompDeepDrill -->
+        <rotatable>true</rotatable>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+        <uiIconOffset>(0, 0.03)</uiIconOffset>
+        <uiIconScale>0.85</uiIconScale>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <building>
+            <uninstallWork>1800</uninstallWork>
+            <buildingTags>
+                <li>Production</li>
+            </buildingTags>
+            <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+            <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+        </building>
+        <thingCategories>
+            <li>BuildingsProduction</li>
+        </thingCategories>
+        <costList>
+            <Steel>100</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <placeWorkers>
+            <li>PlaceWorker_DeepDrill</li>
+            <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+        </placeWorkers>
+        <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+        <researchPrerequisites>
+            <li>DeepDrilling</li>
+        </researchPrerequisites>
+        <statBases>
+            <MaxHitPoints>300</MaxHitPoints>
+            <WorkToBuild>10000</WorkToBuild>
+            <Flammability>0.5</Flammability>
+            <Beauty>-25</Beauty>
+            <Mass>35</Mass>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Forbiddable"/>
+            <li Class="CompProperties_Flickable"/>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>200</basePowerConsumption>
+            </li>
+            <li Class="CompProperties_DeepDrill" />
+            <li Class="CompProperties_CreatesInfestations" />
+        </comps>
+        <inspectorTabs>
+            <li>ITab_Bills</li>
+        </inspectorTabs>
+        <recipes>
+            <li>Operate_Billed_Deep_Drill</li>
+        </recipes>
+    </ThingDef>
+</Defs>
