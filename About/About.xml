@@ -7,6 +7,7 @@
 		<li>1.3</li>
 		<li>1.4</li>
 		<li>1.5</li>
+		<li>1.6</li>
 	</supportedVersions>
 	<description>A deep drill that uses the bill system. It allows players to specify who can operate it. I can think of 2 reasons why one would want such a machine:
 [list]
@@ -31,6 +32,10 @@ Cheers!
 Github: https://github.com/WarBuggy/RimworldMod.BilledDeepDrill.git
 
 Version history
+[b]v0.2.1[/b]
+[list]
+[*]Add compatibility for 1.6.
+[/list]
 [b]v0.2[/b]
 [list]
 [*]Add compatibility for 1.5. Happy horror hunting!
